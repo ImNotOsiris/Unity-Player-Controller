@@ -109,14 +109,6 @@ public class Player_Controller : MonoBehaviour
 		}
 	}
 
-    private void OnTriggerEnter(Collider trigger)
-    {
-        if(trigger.gameObject.CompareTag("Triggers/OOB"))
-        {
-			SceneManager.LoadScene("map_death_oob");
-        }
-    }
-
     #endregion
 
     #region Custom Methods
